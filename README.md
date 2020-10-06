@@ -1,3 +1,10 @@
+
+## Final Project ([Laracast](https://laracasts.com/series/laravel-6-from-scratch))
+
+This is my work while following along with the laracast series, This isn't fully complated as it's missing the last few lessons
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
