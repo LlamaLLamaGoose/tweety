@@ -1,7 +1,7 @@
 
 ## Final Project ([Laracast](https://laracasts.com/series/laravel-6-from-scratch))
 
-This is my work while following along with the laracast series, This isn't fully complated as it's missing the last few lessons
+This is my work while following along with the laracast series, This isn't fully completed with the extension work.
 
 You'll need to create the .env file from the example as well as generate the key.
 
@@ -12,6 +12,16 @@ php artisan tinker commands to generate test data
 factory('App\User', 10)->create();
 factory('App\Tweet', 10)->create(['user_id' => 1]);
 ```
+
+## Todo
+* add customizable profile banner/description
+* add drag/drop picture support for tweets.
+* add a way to remove a like/dislike
+* add a toast notification-/flash message when tweeting/following
+* add a way to delete a tweet
+* add a way to display the current length of a tweet
+* fix up email/password reset pages
+
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" width="400"></p>
 
