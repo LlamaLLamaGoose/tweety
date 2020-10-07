@@ -3,7 +3,15 @@
 
 This is my work while following along with the laracast series, This isn't fully complated as it's missing the last few lessons
 
+You'll need to create the .env file from the example as well as generate the key.
 
+php artisan migrate:fresh
+
+php artisan tinker commands to generate test data
+```
+factory('App\User', 10)->create();
+factory('App\Tweet', 10)->create(['user_id' => 1]);
+```
 
 <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" width="400"></p>
 
